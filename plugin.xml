@@ -22,6 +22,6 @@
             </feature>
         </config-file>
  
-        <source-file src="src/MyStarIO.java" target-dir="src/com/becn/qeasysq" />     
+        <source-file src="src/android/MyStarIO.java" target-dir="src/com/becn/qeasysq" />     
      </platform>         
 </plugin>
