@@ -4,12 +4,13 @@
            id="com.becn.qeasysq.MyStarIO"
       version="0.1.0">
     <name>MyStarIO</name>
+    <author>Ryan TSUI</author>
     <description>Phonegap StarIO Plugin</description>
     <license>MIT</license>
     <keywords>Ryan TSUI</keywords>
  
  
-    <js-module src="www/myStarIO.js" name="StarIO">
+    <js-module src="myStarIO.js" name="StarIO">
         <clobbers target="window.echo" />
     </js-module>
  
@@ -21,6 +22,6 @@
             </feature>
         </config-file>
  
-        <source-file src="src/android/MyStarIO.java" />     
+        <source-file src="MyStarIO.java" />     
      </platform>         
 </plugin>
