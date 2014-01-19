@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.becn.qeasysq.MyStarIO"
+      version="0.1.0">
+    <name>MyStarIO</name>
+    <description>Phonegap StarIO Plugin</description>
+    <license>MIT</license>
+    <keywords>Ryan TSUI</keywords>
+ 
+ 
+    <js-module src="www/myStarIO.js" name="StarIO">
+        <clobbers target="window.echo" />
+    </js-module>
+ 
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="MyStarIO">
+                <param name="android-package" value="com.becn.qeasysq.MyStarIO"/>
+            </feature>
+        </config-file>
+ 
+        <source-file src="src/android/MyStarIO.java" />     
+     </platform>         
+</plugin>
