@@ -10,8 +10,12 @@
     <keywords>Ryan TSUI</keywords>
  
  
-    <js-module src="www/myStarIO.js" name="StarIO">
-        <clobbers target="window.echo" />
+    <js-module src="www/myStarIO.js" name="SearchPrinter">
+        <clobbers target="window.searchP" />
+    </js-module>
+    
+    <js-module src="www/myStarIO.js" name="Print">
+        <clobbers target="window.print" />
     </js-module>
  
     <!-- android -->
