@@ -10,11 +10,11 @@
     <keywords>Ryan TSUI</keywords>
  
  
-    <js-module src="www/myStarIO.js" name="SearchPrinter">
+    <js-module src="www/searchStarP.js" name="SearchPrinter">
         <clobbers target="window.searchP" />
     </js-module>
     
-    <js-module src="www/myStarIO.js" name="Print">
+    <js-module src="www/printTix.js" name="Print">
         <clobbers target="window.print" />
     </js-module>
  
