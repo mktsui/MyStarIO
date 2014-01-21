@@ -2,17 +2,12 @@
  
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
            id="com.becn.qeasysq.MyStarIO"
-      version="0.1.1">
+      version="0.1.2">
     <name>MyStarIO</name>
     <author>Ryan TSUI</author>
     <description>Phonegap StarIO Plugin</description>
     <license>MIT</license>
     <keywords>Ryan TSUI</keywords>
- 
- 
-    <js-module src="www/searchStarP.js" name="SearchPrinter">
-        <clobbers target="window.searchP" />
-    </js-module>
     
     <js-module src="www/printTix.js" name="Print">
         <clobbers target="window.print" />
